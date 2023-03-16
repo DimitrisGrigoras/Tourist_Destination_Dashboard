@@ -1,0 +1,126 @@
+h2 {
+  text-align: center;
+  width: 100%;
+  color: rgba(255, 255, 255);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+html,
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 15px 5px 60px 5px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+label > .required {
+  color: red;
+  margin-left: 5px;
+}
+
+#inside_form {
+  padding-top: 10px;
+}
+.was-validated .form-check-input:valid ~ .form-check-label {
+  color: black;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+hr {
+  border: none;
+  height: 1px;
+  background: #474545;
+  margin: 20px auto;
+  width: 72%;
+}
+
+#id_tab {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#id_tab_nav {
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 5px 60px 5px;
+  height: auto;
+}
+
+#nav-tab {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.center_col {
+  text-align: center;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+.class_width {
+  width: 100%;
+  height: auto;
+}
+
+.modal-body {
+  height: 150px;
+}
+
+.center_col_vh,
+#modal_desc {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+#id_card {
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 5px 5px 5px;
+  height: auto;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* Tablet */
+@media (min-width: 766px) and (max-width: 1024px) {
+  /* Make the buttons half width */
+  .bottoms_style {
+    width: 25%;
+    margin-left: 5%;
+  }
+}
+
+/* Phone */
+@media (min-width: 320px) and (max-width: 765px) {
+  /* Make the buttons full width */
+  .bottoms_style {
+    width: 25%;
+    margin-left: 5%;
+  }
+}
