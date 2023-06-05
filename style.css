@@ -1,0 +1,268 @@
+h2 {
+  text-align: center;
+  width: 100%;
+  color: rgba(255, 255, 255);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+html,
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/279287017_520245883018624_5798521846046883547_n.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 15px 5px 60px 5px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+label > .required {
+  color: red;
+  margin-left: 5px;
+}
+
+#inside_form {
+  padding-top: 10px;
+}
+.was-validated .form-check-input:valid ~ .form-check-label {
+  color: black;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+hr {
+  border: none;
+  height: 1px;
+  background: white;
+  color: white;
+  margin: 20px auto;
+  width: 72%;
+}
+
+#nav-tabContent {
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 5px 15px 5px;
+  height: auto;
+}
+
+#nav-tab {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.nav-link.active {
+  background-color: white;
+  color: blue;
+}
+
+.nav-link.active:focus,
+.nav-link.active:hover {
+  background-color: white;
+  color: blue;
+}
+#id_temp {
+  font-size: 35px;
+}
+
+.center_col {
+  text-align: center;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+.class_width {
+  width: 100%;
+  height: auto;
+}
+
+#forecast-modal-body {
+  height: 150px;
+}
+
+.center_col_vh,
+#modal_desc {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+#exampleModalLabel {
+  font-size: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+#id_card {
+  width: 86%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 5px 5px 5px;
+  height: auto;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* Bonus */
+
+#carousel {
+  padding-top: 0%;
+  margin-top: -45px;
+}
+#carouselExampleAutoplaying {
+  width: 85%;
+  height: auto;
+}
+.image-container {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h5 {
+  background-color: rgba(64, 64, 64, 0.5);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 20px 20px 20px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Make the buttons half width */
+  .bottoms_style {
+    width: 25%;
+    margin-left: 5%;
+    font-size: 50%;
+  }
+  .container {
+    width: 75%;
+  }
+  #search_button {
+    font-size: 15px;
+    padding: 6px 10px;
+  }
+}
+
+/* Phone */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Make the buttons full width */
+  #first_h2 {
+    font-size: 20px;
+  }
+
+  #carousel_title {
+    font-size: 17px;
+  }
+  .bottoms_style {
+    margin-left: 5%;
+  }
+  #search_button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  .container {
+    width: 100%;
+  }
+  #id_temp {
+    font-size: 25px;
+  }
+  #id_descr {
+    font-size: 11px;
+  }
+  #id_low_high {
+    font-size: 12px;
+  }
+  #id_icon img {
+    width: 60%;
+    height: 60%;
+  }
+  .font_size_weather {
+    font-size: 14px;
+  }
+
+  .map {
+    height: 300px;
+    width: 100%;
+  }
+
+  .font_size_forecast_headers {
+    font-size: 10px;
+  }
+
+  .font_size_forecast {
+    font-size: 10px;
+  }
+
+  .font_size_forecast_icon {
+    width: 60%;
+    height: 60%;
+  }
+
+  .view_button {
+    font-size: 8px;
+    padding: 4px 8px;
+  }
+  td {
+    white-space: nowrap;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  #carousel .carousel-item {
+    height: 150px;
+  }
+
+  .h5_captions {
+    font-size: 15px; /* Change the font size */
+  }
+
+  #exampleModalLabel {
+    font-size: 13px;
+  }
+  #modal_desc {
+    font-size: 12px;
+  }
+
+  .forecast_modal_data {
+    font-size: 12px;
+  }
+
+  .modal_req_data {
+    font-size: 9px;
+  }
+
+  li{
+    font-size: 12px;
+  }
+}
